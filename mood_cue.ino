@@ -7,8 +7,8 @@ int potVal;
 int angle;
 
 void setup() {
-  // put your setup code here, to run once:
-
+  myServo.attach(9);
+  Serial.begin(9600);
 }
 
 void loop() {
